@@ -6364,7 +6364,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0402" value="0.01 uF"/>
 <part name="GND" library="wirepad" deviceset="1,6/0,8" device="" value="GND"/>
-<part name="+15V" library="wirepad" deviceset="1,6/0,8" device="" value="15V"/>
+<part name="VCC" library="wirepad" deviceset="1,6/0,8" device="" value="VCC"/>
 <part name="SDA" library="wirepad" deviceset="1,6/0,8" device="" value="SDA"/>
 <part name="P+1" library="supply1" deviceset="+15V" device=""/>
 <part name="SCL" library="wirepad" deviceset="1,6/0,8" device="" value="SCL"/>
@@ -6402,7 +6402,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND6" gate="1" x="83.82" y="172.72"/>
 <instance part="C3" gate="G$1" x="144.78" y="185.42"/>
 <instance part="GND" gate="P" x="86.36" y="119.38"/>
-<instance part="+15V" gate="P" x="86.36" y="127"/>
+<instance part="VCC" gate="P" x="86.36" y="127"/>
 <instance part="SDA" gate="P" x="86.36" y="144.78"/>
 <instance part="P+1" gate="1" x="99.06" y="134.62"/>
 <instance part="SCL" gate="P" x="86.36" y="154.94"/>
@@ -6417,7 +6417,7 @@ Source: AVX .. aphvc.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="+15V" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IN"/>
 <wire x1="17.78" y1="99.06" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
@@ -6428,7 +6428,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="12.7" y="99.06"/>
 </segment>
 <segment>
-<pinref part="+15V" gate="P" pin="P"/>
+<pinref part="VCC" gate="P" pin="P"/>
 <wire x1="88.9" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+15V"/>
 <wire x1="99.06" y1="127" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
