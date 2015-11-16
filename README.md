@@ -16,3 +16,6 @@ Here are the ways that this MicroIMU is less desirable than Pololu's MinIMU:
 * 3.3V I2C communication, down from 5V (compatible with Arduino Due, but not Arduino Uno)
 * Less stable power supply (fewer bypass capacitors)
 * No external connections for VDD (3.3V) or SA0 (least significant bit of I2C address)
+
+### Acknowledgements
+* EAGLE libraries from openrobots-dev/Eagle
