@@ -6478,6 +6478,16 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-5.08" y1="142.24" x2="-5.08" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="147.32" x2="5.08" y2="147.32" width="0.1524" layer="91"/>
 <junction x="5.08" y="147.32"/>
+<pinref part="U$3" gate="G$1" pin="CS"/>
+<wire x1="12.7" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="127" x2="-10.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="127" x2="-10.16" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="147.32" x2="-5.08" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-5.08" y="147.32"/>
+<pinref part="U$3" gate="G$1" pin="SDO"/>
+<wire x1="12.7" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="129.54" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<junction x="10.16" y="127"/>
 </segment>
 </net>
 <net name="SDA" class="0">
