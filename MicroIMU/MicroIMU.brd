@@ -146,6 +146,8 @@
 <wire x1="8.1026" y1="0" x2="8.1026" y2="9.3472" width="0" layer="20"/>
 <wire x1="8.1026" y1="9.3472" x2="0" y2="9.3472" width="0" layer="20"/>
 <wire x1="0" y1="9.3472" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="7.1755" y1="4.5085" x2="4.572" y2="4.5085" width="0.2032" layer="22"/>
+<wire x1="5.9055" y1="6.9215" x2="5.9055" y2="2.413" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1553,50 +1555,30 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C8" library="resistor" package="C0402" value="4.7uF" x="1.524" y="3.96875" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.286" y="5.55625" size="0.508" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="C9" library="resistor" package="C0201" value="0.22 uF" x="3.96875" y="6.95325" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.54025" y="6.31825" size="0.508" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="C7" library="resistor" package="C0402" value="0.01 uF" x="5.334" y="6.19125" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.223" y="7.33425" size="0.508" layer="25" ratio="20" rot="R180"/>
-</element>
-<element name="C5" library="resistor" package="C0603" value="10uF" x="6.731" y="4.0005" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.096" y="5.588" size="0.508" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="C3" library="resistor" package="C0201" value="0.1uF" x="0.889" y="5.207" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.27" y="4.826" size="0.508" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="C2" library="resistor" package="C0201" value="0.1uF" x="0.889" y="2.25425" smashed="yes">
-<attribute name="NAME" x="-0.635" y="2.00025" size="0.508" layer="25" ratio="20"/>
-</element>
+<element name="C8" library="resistor" package="C0402" value="4.7uF" x="1.524" y="3.96875" smashed="yes" rot="R180"/>
+<element name="C9" library="resistor" package="C0201" value="0.22 uF" x="3.96875" y="6.95325" smashed="yes" rot="R270"/>
+<element name="C7" library="resistor" package="C0402" value="0.01 uF" x="5.334" y="6.19125" smashed="yes" rot="R180"/>
+<element name="C5" library="resistor" package="C0603" value="10uF" x="6.731" y="4.0005" smashed="yes" rot="R270"/>
+<element name="C3" library="resistor" package="C0201" value="0.1uF" x="0.889" y="5.207" smashed="yes" rot="R180"/>
+<element name="C2" library="resistor" package="C0201" value="0.1uF" x="0.889" y="2.25425" smashed="yes"/>
 <element name="GND" library="wirepad" package="1,6/0,8" value="GND" x="6.76275" y="1.3335" smashed="yes">
-<attribute name="NAME" x="11.08075" y="0.5715" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="6.35" y="2.286" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="VIN" library="wirepad" package="1,6/0,8" value="15V" x="5.0165" y="1.3335" smashed="yes">
-<attribute name="NAME" x="9.0805" y="0.5715" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="4.699" y="2.286" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="SDA" library="wirepad" package="1,6/0,8" value="SDA" x="5.0165" y="7.96925" smashed="yes">
-<attribute name="NAME" x="9.3345" y="7.46125" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="4.79425" y="5.0165" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="SCL" library="wirepad" package="1,6/0,8" value="SCL" x="6.76275" y="7.96925" smashed="yes">
-<attribute name="NAME" x="11.08075" y="7.20725" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="6.38175" y="5.0165" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
-<element name="R1" library="resistor" package="R0201" value="10k" x="6.7945" y="6.63575" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.0485" y="7.08025" size="0.508" layer="25" ratio="20" rot="R90"/>
-</element>
-<element name="R2" library="resistor" package="R0201" value="10k" x="3.20675" y="1.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.66725" y="1.4605" size="0.508" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
+<element name="R1" library="resistor" package="R0201" value="10k" x="6.7945" y="6.63575" smashed="yes" rot="R270"/>
+<element name="R2" library="resistor" package="R0201" value="10k" x="3.20675" y="1.27" smashed="yes" rot="R180"/>
 <element name="U$1" library="st" package="LGA16L" value="L3GD20H" x="4.3815" y="4.0005" smashed="yes"/>
 <element name="U$2" library="SparkFun-PowerIC" package="SOT23-3" value="LM3480IM4" x="1.9685" y="2.00025" smashed="yes" rot="R270"/>
-<element name="C1" library="resistor" package="C0201" value="0.1uF" x="0.889" y="1.778" smashed="yes">
-<attribute name="NAME" x="-0.635" y="1.524" size="0.508" layer="25" ratio="20"/>
-</element>
-<element name="C4" library="resistor" package="C0201" value="0.1uF" x="4.03225" y="6.096" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.65125" y="5.969" size="0.508" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
+<element name="C1" library="resistor" package="C0201" value="0.1uF" x="0.889" y="1.778" smashed="yes"/>
+<element name="C4" library="resistor" package="C0201" value="0.1uF" x="4.03225" y="6.096" smashed="yes" rot="R90"/>
 <element name="U$3" library="st" package="LGA16L" value="LSM303D" x="2.12725" y="7.20725" rot="R180"/>
 </elements>
 <signals>
